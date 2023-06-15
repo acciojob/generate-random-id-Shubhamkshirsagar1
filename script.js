@@ -1,6 +1,6 @@
 function makeid(l) {
   // write your code here
-	let randomNumber = Math.floor(Math.random() * l);
+	let randomNumber = Math.floor(Math.random() * l+1);
 	return randomNumber;
 }
 
